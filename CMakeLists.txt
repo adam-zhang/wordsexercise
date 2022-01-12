@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(wordsexercise)
+add_definitions(-W -Wall -std=c++11)
+add_subdirectory(lib)
+add_subdirectory(libtest)
+add_subdirectory(gui)
